@@ -4,7 +4,7 @@ from trainer import DataTrainer
 if __name__ == '__main__':
     trainer = DataTrainer()
 
-    lines = [line.rstrip('\n') for line in open('lyrics.txt')]
+    lines = [line.rstrip('\n') for line in open('lyrics_10_1.txt')]
     title = True
     current_title = None
     for line in lines:

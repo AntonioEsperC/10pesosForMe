@@ -1,6 +1,5 @@
 import re
 
-
 class Data(object):
     """Deals with the trained data
 
