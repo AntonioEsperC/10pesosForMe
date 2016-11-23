@@ -5,6 +5,7 @@ class Data(object):
 
     """
     def __init__(self):
+    #dictionaries for manipulating data
         self.artists_count = {}
         self.freq = {}
 
